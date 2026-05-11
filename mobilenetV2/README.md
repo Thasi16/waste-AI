@@ -73,7 +73,7 @@ File này sẽ load ảnh từ tập Test, dự đoán phân loại bằng file 
 
 **Hình ảnh Demo Dự đoán (Inference Demo):**
 
-![Inference Demo](https://i.postimg.cc/QtxVfF5F/demo-prediction.png)
+![Inference Demo](https://i.postimg.cc/3RCRXdrS/image.png)
 *(Hình ảnh minh họa: Mô hình tự động cắt bóc tách rác thải trong khung hình và hiển thị dự đoán nhãn cùng với độ tự tin - Confidence)*
 
 ## 📌 Lưu ý về Quantization
@@ -110,6 +110,6 @@ weighted avg       0.87      0.86      0.86       233
 ```
 
 ### Ma trận nhầm lẫn (Confusion Matrix)
-![Confusion Matrix QAT](image/confusion.png)
+![Confusion Matrix QAT](https://i.postimg.cc/DwdLCYMW/confusion.png)
 
 *(Quan sát từ Ma trận nhầm lẫn, mô hình phân loại cực kỳ chính xác ở các lớp `paper`, `metal` và `plastic`. Lớp `mixed` (rác hỗn hợp) có tỷ lệ nhầm lẫn cao nhất do đặc tính dữ liệu phức tạp của nó).*
