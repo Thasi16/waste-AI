@@ -3,6 +3,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)
 ![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)
+
 Dự án này triển khai mô hình **MobileNetV2** để phân loại rác thải thành 5 nhóm: `bag_other`, `metal`, `mixed`, `paper`, và `plastic`. Đặc biệt, dự án hỗ trợ tính năng **Quantization-Aware Training (QAT)** để tạo ra các mô hình TFLite siêu nhẹ (INT8), tối ưu hóa tốc độ và dung lượng khi chạy trên các thiết bị nhúng (Edge Devices) hoặc điện thoại di động mà không làm giảm đáng kể độ chính xác.
 
 ## ⚙️ Cài đặt môi trường (Prerequisites & Installation)
